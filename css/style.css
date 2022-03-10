@@ -43,6 +43,13 @@ svg {
 img {
   max-width: 100%;
 }
+h1 {
+  color: tomato;
+  text-align: center;
+}
+h3 {
+  color: darkgoldenrod;
+}
 
 #posts{
   display: grid;
