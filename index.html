@@ -80,7 +80,9 @@
         <section class="main container mx-auto p-3">
             <h1>Let's Know more about JavaScript</h1>
             <h3>How does javascript work ?</h3>
-            <P>javascript is a single threated language. It is also a asyncronous language. this language is interpreted by V8 engine . And it is compiled just in time by V8.</P>
+            <P>firstly, javascript is called a single threated asynchronous language which is mainly run by v8 engine. Different browsers use Different types of engines and among them Chrome browser use V8 to run javaScript. Initially, V8 engine receive all codes of javaScript file and then parse it through DOM(Document Object Model) and BOM(browser Object Model) tree. After that, DOM and BOM make Abstract syntex tree and interprete it which make a website a static. But to build a dynamic website V8 engine works By JIT(Just In Time) Compiler to compile the code. And finally , run the optimized code.</P>
+            <h3>How does event loop work? </h3>
+            <p>An Event loop is one kind of loop that run asynchronously. Js code are interpreted and compiled in small parts through V8 engine which is called execution context. At begining , Global execution context start and then function execution context runs by looping system. Data firstly stored in a callback queue form webAPI. then It check wether the call stack empty. If the call stack empty, data entered into the call stack.It works like LIFO(Last In First Out). Loop runs till callback stack empty.</p>
         </section>
         <footer></footer>
 
